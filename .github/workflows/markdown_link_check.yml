@@ -1,8 +1,8 @@
 name: Markdown Link Check
 
 on:
-  schedule:
-    - cron: '30 * * * *' # 毎時30分に実行
+  # schedule:
+  #   - cron: '30 * * * *' # 毎時30分に実行
   workflow_dispatch: # 手動トリガーの追加
 
 jobs:

@@ -1,6 +1,12 @@
 name: Markdown Link Check
 
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   # schedule:
   #   - cron: '30 * * * *' # 毎時30分に実行
   workflow_dispatch: # 手動トリガーの追加
